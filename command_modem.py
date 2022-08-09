@@ -14,7 +14,7 @@ def login_modem(driver, path):
     driver.get(path)
     elem_username = driver.find_element(By.ID, FIELD_LOGIN_NAME)
     elem_username.send_keys(LOGIN_NAME)
-    elem_password = driver.find_element(By.ID, FIELD_LOGIN_PWD )
+    elem_password = driver.find_element(By.ID, FIELD_LOGIN_PWD)
     elem_password.send_keys(LOGIN_PWD)
     elem_password.send_keys(Keys.RETURN)
 
@@ -27,18 +27,12 @@ def restart_modem(driver):
 
 def toggle_wifi(driver):
     time.sleep(8)
-    # driver.find_element(By.XPATH,"/html/body/div[5]/div[2]/div[2]/div[2]/div[3]/div[2]/div/div/div[1]/div[1]/div[1]/div[1]/div[2]/input"\
-    #                     ).click()
 
-    # checkbox_wifi = WebDriverWait(driver, 8).until(EC.presence_of_element_located( \
-    # (By.XPATH,CHECKBOX_WIFI)))
-
-    checkbox_wifi = WebDriverWait(driver, 3).until(EC.element_to_be_clickable( \
-    (By.XPATH,CHECKBOX_WIFI)))
+    checkbox_wifi = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.XPATH, CHECKBOX_WIFI)))
 
     checkbox_wifi.click()
 
-    button_apply = driver.find_element(By.XPATH,BUTTON_APPLY_WIFI)
+    button_apply = driver.find_element(By.XPATH, BUTTON_APPLY_WIFI)
     button_apply.click()
 
 
