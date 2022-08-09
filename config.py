@@ -3,7 +3,7 @@
 FIELD_LOGIN_NAME = "A1"
 FIELD_LOGIN_PWD = "A2"
 LOGIN_NAME = "admin"
-LOGIN_PWD = "misdc73"
+LOGIN_PWD = "**************"
 #RESTART MODEM page and button
 URL_RESTART_MODEM = "http://192.168.0.1/#system/sysconf"
 BUTTON_RESTART = "/html/body/div[5]/div[2]/div[2]/div[2]/div[3]/div[2]/div/div[2]/div[1]/div[1]/div[2]/div/div/div[1]"
