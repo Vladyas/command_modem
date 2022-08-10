@@ -1,5 +1,5 @@
 """
-Module fuctions automate web interface actions in D-Link DIR-651 web manager application
+Module functions automate execution of the web interface actions in D-Link DIR-651 web manager application
 (which is found at http://192.168.0.1)
 
 use parameters (specified in config.py):
