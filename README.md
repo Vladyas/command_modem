@@ -3,15 +3,15 @@
 
 <p>&nbsp;</p>
 <pre># command_modem<br />
-Command_modem gives an example how to command your modem by WebDriver/Python. <br />
-It could be helpful if you wish to restart or toggle wi-fi by one click on shortcut on your desktop.<br />
+Command_modem gives an example of how to command your modem by WebDriver/Python. <br />
+It could help if you wish to restart or toggle wi-fi by one click on shortcut on your desktop.<br />
 <br />The code is working for D-Link Dir 651.<br />
-<br /><strong>Parameters:</strong><br /><br />
--r - restart modem<br /><br />
+<br /><strong>Parameters:</strong><br />
+-r - restart modem<br />
 -w - toggle wi-fi<br /><br />
-In order to use the code with other modem models, just  customize config.py:<br /><br />
-1.change XPATHs  to login/password fields and confirm button in login screen<br /><br />
-2.change login and password values<br /> <br />
-3.change URLs to restart and WI-FI pages<br /><br />
-4.change XPATHs to corresponding checkboxes and buttons<br /> </pre>
+For other modem models, just customize config.py:<br />
+1.Change XPATHs  to login/password fields and confirm button in login screen<br />
+2.Change login and password values<br />
+3.Change URLs to restart and WI-FI pages<br />
+4.Change XPATHs to corresponding checkboxes and buttons<br /> </pre>
 <p>&nbsp;</p>
