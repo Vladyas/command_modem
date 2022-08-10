@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 # command_modem
 Command_modem gives an example how to command your modem by WebDriver/Python. 
 It could be helpful if you wish to restart or toggle wi-fi by one click on shortcut on your desktop.
